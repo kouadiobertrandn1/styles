@@ -1,0 +1,339 @@
+.nav{
+    position: relative;
+    left:%;
+    background-color: darkred;
+    width: ;
+    background-color: ;
+}
+.navbar-brank{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* premier image logo */
+   img{
+    width: 50%;
+    height: 16%;
+    position: relative;
+    
+}
+      
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-size: 20px;
+    display: block;
+    padding: 8px;
+    background-color:;
+  }
+  ul {
+    background-color:  ;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: ;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* changer le lien en vert apres le passage du curseur */
+  li a:hover {
+    color: #20B2AA;
+    }
+    /*div de la navbar*/
+  div {
+    position: relative;
+    left:%;
+    background-color:  ;
+    width: %;
+    background-color: ;
+    font-family: roboto;
+  }
+  /* le coprs de la page structuration */
+  body{
+    background-image: url();
+    margin-left: 15px;
+    color:gray;
+    HEIGHT:60%;
+   font-family: sans-serif;
+  }
+    /* unvisited link */
+                  a:link {
+            color: tomato;
+        }
+  
+        /* visited link */
+        a:visited {
+            color: grey;
+        }
+  
+        /* mouse over element */
+        .lien a:hover {
+            color: rgb(25, 182, 59);
+        } 
+  
+        /* selected link */
+        a:active{
+            color: #0000FF
+        }
+  
+  h1{
+    font-family: roboto;
+    font-size:15px;
+  }
+
+  p{
+    font-size:20px;
+  }
+  /* pieds de page */
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    bottom: 0px;
+  } 
+
+ 
+  }
+  /* portion de  <article> dans section  */
+.icone_logo{
+
+    height: 50px;
+   
+}
+/*changement des dimension du logo*/
+.icone_logo img{
+width:35px ;
+height: 35px;
+text-align: ;
+margin-left: 55%; 
+
+}
+/* texte d'entête stylisation */
+.entree p{
+
+    font-size: 30px;
+ font-style: normal;
+ font-weight: 100;
+    color: #20B2AA;
+    text-align: center;
+    width: 100%;
+
+}
+
+/*structuration des p texte */
+.text_libre1{
+
+    text-align: left;
+    width: 40%;
+}
+
+.text_libre2{
+    text-align:left;
+    width: 40%;
+}
+article P {
+display: inline-block;
+text-align: center;
+margin-left: 70px;
+}
+
+/* organisation des 3 div  */
+
+#first1{
+width: 80%;
+
+border-color:grey ;
+display: flex;
+justify-content: space-between on container ;
+margin: auto;
+column-gap: 30px;
+}
+
+#first1 div  {
+    margin-top: 50px;
+    background-color: ;
+height: 350px;
+width: 350px;
+border-radius: 10px;
+color: white;
+text-align: ;
+}
+#first1 p {
+    text-align: left;
+}
+/* 1er div a l interieur de la div mère*/
+.first{
+
+text-align:;
+background-color: #20B2AA;
+   
+
+ ;
+}
+
+}
+/* 2e div a l interieur de la div mère */
+
+.second {
+
+text-align: ;
+background-color: #20B2AA;
+
+    
+}
+/* 3e div a l interieur de la div mère  */
+.third{
+
+text-align:;
+background-color: black;
+
+}
+/*stylisation des icones */
+#main img{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top:40px ;
+    text-align: left;
+
+}
+
+/*tailles du premier paragraphe*/
+#para{
+    font-size: 38px;
+    text-align: left;
+}
+/*select1*/
+#select1{
+text-align: left;
+
+text-decoration: underline white ;
+background: #20B2AA;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 22px;
+
+
+
+}
+
+#select1.option{
+
+    color: ;
+    padding: 0 10px;
+    background-color: #20B2AA;
+}
+
+/* transformation du select2*/
+
+#select2{
+text-decoration: underline white ;
+text-align: center;
+background: blue;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 22px;
+
+}
+
+#select2.option{
+
+    color:#000 ;
+    padding: 0 10px;
+    background-color: blue;
+}
+
+#select3{
+
+text-decoration: underline white ;
+background: black;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 20px;
+margin-bottom: 5px;
+}
+
+
+#select3.option{
+
+    color: #FFFFFF;
+    padding: 0 10px;
+    background: black;
+}
+
+
+/*stylisation des logo */
+#section3logos{
+    width: 150px;
+    height: 150px;
+
+}
+
+/*section 3 */
+
+.section3 {
+width: 60%;
+margin-top: 20px;
+color: ;
+display: flex;
+flex-direction: row;
+text-align: right;
+margin-bottom: 60px;
+}
+
+#ssection3logos{
+display:grid;
+
+}
+#section3 img{
+flex-direction: row-reverse;
+}
+
+/*4 section */
+.box{
+    padding-top: 30px;
+    background: #90EE90;
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    height: 800PX;
+    gap: 1em;
+    margin-right: 20px;
+}
+/*box1*/
+#box1{
+
+    border: soli;
+    text-align: ;
+    width: 50%;
+    height: ;
+
+}
+/*les 4 div */
+#box2 div{
+    margin-top: ;
+    height: 250px;
+    width:200px;
+    border: solid red;
+    display: inline-grid;
+     flex-direction: row;
+     justify-content: space-evenly 20px;
+     : 20px;
+    background: white;
+   
+    padding: 20PX;
+    gap: 1em;
+
+}
